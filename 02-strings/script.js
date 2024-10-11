@@ -10,9 +10,10 @@ console.log(name) ;// name is deprecated as a
 // Stampa tutti i valori nella console.
 let number = 10;
 let text = 'javascript';
-let bool = true;
+let bool = Boolean(10>1);
 
 console.log(number, text, bool);
+console.log(typeof bool);
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
