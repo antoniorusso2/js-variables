@@ -1,7 +1,7 @@
 // 1. Dichiarazione di variabili
 // Crea una variabile chiamata name e assegnale il tuo nome.
 // Stampa il valore di nome nella console.
-let name = 'Antonio';
+const name = 'Antonio';
 console.log(name) ;// name is deprecated as a 
 
 // 2. Tipi primitivi
@@ -10,7 +10,7 @@ console.log(name) ;// name is deprecated as a
 // Stampa tutti i valori nella console.
 let number = 10;
 let text = 'javascript';
-let bool = Boolean(10>1);
+let bool = Boolean(10>1); //bastava anche solo true o false. Sono parole chiave speciali che si riferiscono automaticamente ad un valore booleano
 
 console.log(number, text, bool);
 console.log(typeof bool);
